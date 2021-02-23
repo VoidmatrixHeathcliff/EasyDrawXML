@@ -203,7 +203,35 @@ EasyDrawXML 充分借鉴了 XAML 的灵活性，支持将对象标签的属性�
 
 + 在当前版本的 EasyDrawXML 中，只支持使用单一的全局字体，即只使用最后一次在 `Resource` 标签中出现的字体文件，若字体文件加载失败或未指定字体文件，引擎将尝试从 `C:/Windows/Fonts/msyh.ttc` 目录下加载字体，若此字体仍加载失败，则后续的文本渲染将失效
 
-## 3. 最后
+## 3. 示例
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+
+<EDX>
+    <Config>
+        <Window Title="CustomizeWindow" Width="1280" Height="720" Color="0, 255, 255, 100" />
+        <Resource Type="Font" Path="STKAITI.TTF" />
+        <Resource Type="Icon" Path="bug.png" />
+    </Config>
+    
+    <Body>
+        <Circle IsFilled="True" Radius="350" Color="#db8449">
+            <Ellipse X="400" Y="400" RadiusX="475" RadiusY="200" Color="#ffffff" />
+            <Rectangle X="500" Y="500" Width="1000" Height="500" IsFilled="True" Color="255, 0, 0, 100" />
+        </Circle>
+        <Triangle PointAX="100" PointAY="100" PointBX="200" PointBY="300" PointCX="700" PointCY="900" IsFilled="True" Color="255, 255, 0">
+            <Line StartX="0" StartY="0" EndX="1280" EndY="720" Width="5" Color="#69d9ff" />
+            <Text Content="左上角的二维码可以跳转至我的一个无聊项目" X="450" Y="360" />
+            <Image Path="qrcode.png" Alpha="175" />
+        </Triangle>
+    </Body>
+</EDX>
+```
+
+![示例图片](https://s3.ax1x.com/2021/02/23/yq2wcR.md.jpg)
+
+## 4. 最后
 
 最后，特别感谢以下组织或个人：
 
