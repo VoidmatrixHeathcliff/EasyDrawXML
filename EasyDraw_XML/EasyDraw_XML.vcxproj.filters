@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pugixml-1.11.4\pugixml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\SDL2_gfx-1.0.4\SDL2_gfxPrimitives.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\SDL2_gfx-1.0.4\SDL2_imageFilter.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\SDL2_gfx-1.0.4\SDL2_rotozoom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\SDL2_gfx-1.0.4\SDL2_framerate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Value.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleGeometryElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PointGeometryElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LineGeometryElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleGeometryElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EllipseGeometryElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PieGeometryElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleGeometryElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Element.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Value.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleGeometryElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PointGeometryElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LineGeometryElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleGeometryElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EllipseGeometryElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PieGeometryElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleGeometryElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributeName.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
